@@ -1,0 +1,1 @@
+package com.ufrobook.isoft.ufrobook.tedencias.repository;

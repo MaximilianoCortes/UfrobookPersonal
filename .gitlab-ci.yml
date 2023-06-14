@@ -1,0 +1,14 @@
+image: maven:3.8.5-openjdk-17-slim
+
+variables:
+    APP_NAME: ufrobook_api
+        
+stages:
+  - build
+
+construccion:
+  stage: build
+  only:
+    - develop
+  script:
+    - mvn compile
